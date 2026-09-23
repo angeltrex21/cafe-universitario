@@ -1,0 +1,231 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Café Universitario</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+</head>
+
+<body>
+
+    <!-- MENÚ -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+
+            <a class="navbar-brand" href="/">
+                ☕ Café Universitario
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuPrincipal">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/menu/">
+                            Menú
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'nosotros' %}">
+                            Nosotros
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'noticias' %}">
+                            Noticias
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a cclass="nav-link" href="{% url 'contacto' %}">
+                            Contacto
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- PRESENTACIÓN -->
+
+    <section class="hero">
+
+        <div class="container text-center">
+
+            <h1>Bienvenido a Café Universitario</h1>
+
+            <p>
+                Un buen café para acompañar un buen día.
+            </p>
+
+            <a href="/menu/" class="btn btn-primary">
+                Ver nuestro menú
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUCTOS DESTACADOS -->
+
+    <section class="container my-5">
+
+        <h2 class="text-center mb-4">
+            Productos destacados
+        </h2>
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <div class="card producto">
+
+                    <div class="card-body text-center">
+
+                        <h3>☕ Café Americano</h3>
+
+                        <p>
+                            Café preparado con espresso y agua caliente.
+                        </p>
+
+                        <h4>$45</h4>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="card producto">
+
+                    <div class="card-body text-center">
+
+                        <h3>☕ Capuchino</h3>
+
+                        <p>
+                            Espresso con leche vaporizada y espuma.
+                        </p>
+
+                        <h4>$55</h4>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="card producto">
+
+                    <div class="card-body text-center">
+
+                        <h3>🥐 Croissant</h3>
+
+                        <p>
+                            Pan horneado ideal para acompañar tu café.
+                        </p>
+
+                        <h4>$40</h4>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- INFORMACIÓN -->
+
+    <section class="container my-5">
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <h2>¿Por qué elegirnos?</h2>
+
+                <p>
+                    En Café Universitario buscamos ofrecer bebidas
+                    y alimentos de calidad en un espacio agradable
+                    para estudiantes y público en general.
+                </p>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <h2>Nuestro objetivo</h2>
+
+                <p>
+                    Crear una experiencia sencilla y agradable,
+                    acompañada de productos preparados con calidad
+                    y atención al cliente.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer class="bg-dark text-white text-center p-4">
+
+        <p class="mb-0">
+            © 2026 Café Universitario
+        </p>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript propio -->
+
+    <script src="{% static 'js/script.js' %}"></script>
+
+</body>
+</html>

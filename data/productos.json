@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Café Americano",
+        "descripcion": "Café preparado con espresso y agua caliente.",
+        "precio": 45,
+        "categoria": "Café"
+    },
+    {
+        "nombre": "Capuchino",
+        "descripcion": "Espresso con leche vaporizada y espuma.",
+        "precio": 55,
+        "categoria": "Café"
+    },
+    {
+        "nombre": "Latte",
+        "descripcion": "Espresso combinado con leche vaporizada.",
+        "precio": 60,
+        "categoria": "Café"
+    },
+    {
+        "nombre": "Mocha",
+        "descripcion": "Espresso con chocolate y leche vaporizada.",
+        "precio": 65,
+        "categoria": "Café"
+    },
+    {
+        "nombre": "Té Helado",
+        "descripcion": "Bebida refrescante preparada con té y hielo.",
+        "precio": 40,
+        "categoria": "Bebida fría"
+    },
+    {
+        "nombre": "Chocolate Caliente",
+        "descripcion": "Bebida caliente de chocolate con leche.",
+        "precio": 50,
+        "categoria": "Bebida"
+    },
+    {
+        "nombre": "Croissant",
+        "descripcion": "Pan horneado de textura ligera y crujiente.",
+        "precio": 40,
+        "categoria": "Alimento"
+    },
+    {
+        "nombre": "Panqué de Limón",
+        "descripcion": "Panqué suave con un ligero sabor a limón.",
+        "precio": 45,
+        "categoria": "Alimento"
+    }
+]

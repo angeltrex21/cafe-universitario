@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+
+/* Sección principal */
+
+.hero {
+    background-color: #e9ecef;
+    padding: 100px 20px;
+}
+
+
+.hero h1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+
+/* Productos */
+
+.producto {
+    height: 100%;
+    transition: 0.3s;
+}
+
+
+.producto:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 50px;
+}
+
+
+/* Estilos de la página Nosotros */
+
+.card {
+    border-radius: 8px;
+}
+
+.card-title {
+    margin-bottom: 15px;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+
+/* Página de noticias */
+
+.card {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    line-height: 1.6;
+}
+
+.badge {
+    font-size: 13px;
+    padding: 8px;
+}
+
+/* Efecto al pasar el cursor */
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}

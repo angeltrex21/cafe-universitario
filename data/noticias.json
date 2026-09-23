@@ -1,0 +1,31 @@
+
+[
+    {
+        "id": 1,
+        "titulo": "Bienvenidos a Café Universitario",
+        "fecha": "2026-09-01",
+        "categoria": "Noticias",
+        "descripcion": "Café Universitario presenta su sitio web, donde los visitantes podrán consultar nuestro menú, conocer nuestra historia y enviarnos mensajes."
+    },
+    {
+        "id": 2,
+        "titulo": "Nuevas bebidas en nuestro menú",
+        "fecha": "2026-09-05",
+        "categoria": "Productos",
+        "descripcion": "Agregamos nuevas opciones de bebidas calientes y frías para que nuestros clientes disfruten de una mayor variedad de productos."
+    },
+    {
+        "id": 3,
+        "titulo": "Promoción para estudiantes",
+        "fecha": "2026-09-10",
+        "categoria": "Promociones",
+        "descripcion": "Presentamos una promoción especial para estudiantes: café americano y croissant a un precio de $75 durante el horario matutino."
+    },
+    {
+        "id": 4,
+        "titulo": "Un espacio para estudiar",
+        "fecha": "2026-09-15",
+        "categoria": "Noticias",
+        "descripcion": "Nuestro concepto busca ofrecer un ambiente cómodo donde los estudiantes puedan realizar sus actividades académicas mientras disfrutan de una bebida."
+    }
+]
